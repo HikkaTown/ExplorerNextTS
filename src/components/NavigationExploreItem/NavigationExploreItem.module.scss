@@ -1,0 +1,27 @@
+.navigation_btn {
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.navigation_name {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #5e6366;
+}
+
+.navigation_arrow {
+    transform: rotate(0deg);
+    transition: 0.2s;
+    &_open {
+        transform: rotate(90deg);
+    }
+}

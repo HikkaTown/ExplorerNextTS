@@ -1,0 +1,21 @@
+.file_icon {
+    margin-right: 8px;
+}
+
+.file_line {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #5e6366;
+    margin-left: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+        opacity: 0.6;
+    }
+}

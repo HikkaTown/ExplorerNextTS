@@ -1,0 +1,22 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.87);
+    max-width: 232px;
+}
+
+.navigation_icon {
+    margin-right: 18px;
+}
+
+.navigation_number {
+    margin-left: auto;
+    color: #919699;
+}

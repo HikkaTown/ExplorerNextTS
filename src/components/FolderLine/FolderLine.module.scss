@@ -1,0 +1,40 @@
+.folder_list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.folder_line {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5e6366;
+    transition: 0.2s;
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.folder_arrow {
+    margin-right: 4px;
+    transition: 0.2s;
+    transform: rotate(-90deg);
+}
+
+.folder_arrow_open {
+    transform: rotate(0deg);
+}
+
+.folder_icon {
+    margin-right: 8px;
+}
+
+.sub_list {
+    list-style-type: none;
+    padding-left: 18px;
+}
