@@ -15,6 +15,11 @@ export const catalogModel = [
               { fileName: "subFile4", type: "file", content: null },
             ],
           },
+          {
+            fileName: "subFolder",
+            type: "folder",
+            content: null,
+          },
           { fileName: "subFile3", type: "file", content: null },
           { fileName: "subFile4", type: "file", content: null },
         ],

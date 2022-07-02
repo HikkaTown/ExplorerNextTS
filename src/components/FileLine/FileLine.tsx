@@ -1,4 +1,4 @@
-import FileIcon from "@components/ui/FileIcon";
+import FileIcon from "@components/icons/FileIcon";
 import React from "react";
 import { IFileProps } from "src/interfaces";
 import s from "./FileLine.module.scss";

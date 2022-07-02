@@ -1,8 +1,8 @@
 import React from "react";
 import cs from "classnames";
-import SmallArrowIcon from "@components/ui/SmallArrowIcon";
+import SmallArrowIcon from "@components/icons/SmallArrowIcon";
 import s from "./NavigationExploreItem.module.scss";
-import YellowFolderIcon from "@components/ui/YellowFolderIcon";
+import YellowFolderIcon from "@components/icons/YellowFolderIcon";
 import { INavigationExploreItem } from "src/interfaces";
 
 export default function NavigationExploreItem({

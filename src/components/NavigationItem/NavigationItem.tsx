@@ -1,5 +1,5 @@
 import React from "react";
-import PersonIcon from "@components/ui/PresonIcon";
+import PersonIcon from "@components/icons/PresonIcon";
 import s from "./NavigationItem.module.scss";
 
 export default function NavigationItem() {
